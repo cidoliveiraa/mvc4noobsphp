@@ -5,16 +5,16 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>MVC 4 Noobs</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
-	<link rel="stylesheet" href="assets/css/bootstrap.css">
-	<script src="assets/js/main.js"></script>
-	<script src="assets/js/popper.js"></script>
-	<script src="assets/js/jquery.js"></script>
-	<script src="assets/js/bootstrap.js" ></script>
+	<link rel="stylesheet" type="text/css" media="screen" href="../assets/css/main.css" />
+	<link rel="stylesheet" href="../assets/css/bootstrap.css">
+	<script src="../assets/js/main.js"></script>
+	<script src="../assets/js/popper.js"></script>
+	<script src="../assets/js/jquery.js"></script>
+	<script src="../assets/js/bootstrap.js" ></script>
 </head>
 <body>
 	<?php include("includes/navbar.php");?>
-	<form method="POST" class="need-validation" action="index.php?iri=user/registerUser">
+	<form method="POST" class="need-validation" action="user/registerUser">
 		<div class="form-group container mt-3">
 			<label for="name" class="h4">Nome:</label>
 			<input class="form-control" type="text" name="name" required>

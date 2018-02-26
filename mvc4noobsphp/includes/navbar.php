@@ -27,7 +27,7 @@
 						</a>
 						<div class="dropdown-menu">
 							<a href="#" class="dropdown-item">Entrar</a>
-							<a href="index.php?uri=user/register" class="dropdown-item">Cadastrar</a>
+							<a href="user/register" class="dropdown-item">Cadastrar</a>
 						</div>
 					</li>
 				</ul>
